@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form>
+	<form method="post">
 		<label for="name">Name</label>
 		<input id="name" type="text" placeholder="Name" required>
 		<br>
@@ -21,7 +21,7 @@
 		<label for="female">Female</label>
 		<br>
 		<label for="car">Car Brands</label>
-		<select id="car" name="Car">
+		<select id="cars" name="Car">
 			<option value="Audi">Audi</option>
 			<option value="Marcedes">Marcedes</option>
 			<option value="Maruti">Maruti</option>		
@@ -44,7 +44,7 @@
 		<input id="tos" type="checkbox" required>
 		<label for="tos">I agree to the</label>
 		<br>
-		<input type="submit">
+		<button type="submit">Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
